@@ -1,0 +1,19 @@
+# Analysis and tree models (runs on a normal CPU)
+numpy>=2.0
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.5
+xgboost>=2.0
+lightgbm>=4.0
+shap>=0.45
+matplotlib>=3.8
+
+# Transformers (fine-tuning and embeddings; use a GPU, e.g. Google Colab T4)
+torch>=2.3
+transformers>=4.44
+peft>=0.21
+
+# Optional experiments
+# tabpfn==2.0.9        # TabPFN v2 decision model (phase2_tabpfn notebook)
+# google-genai         # Gemini agent (phase3_agent notebook)
+# laya==0.4.15         # Jev alternative (faculty_q10 notebook); Kev: git clone https://github.com/jaredpalmer/kev.git
