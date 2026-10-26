@@ -1,0 +1,11 @@
+machine,variant,hard rows,hard-row accuracy,overall accuracy,gain vs junior,95% range,McNemar p,unusable replies,LLM calls / row,tokens / row,note
+amd,junior only,182.0,53.3,75.1,,,,,,,
+amd,agent,182.0,51.1,74.6,-0.6,-2.5 to +1.8,0.7239,0.0,2.57,3794.0,
+amd,all_tools,182.0,48.4,73.8,-1.3,-4.8 to +1.7,0.362,0.0,1.0,1670.0,
+amd,code,182.0,47.8,73.7,-1.5,-3.7 to +0.9,0.3374,0.0,1.0,1273.0,
+amd,facts,182.0,48.4,73.8,-1.3,-3.6 to +1.1,0.4262,0.0,1.0,1413.0,
+nvidia,junior only,290.0,57.2,70.0,,,,,,,
+nvidia,agent,,,,,,,,,,unfinished: 285 of 290 hard rows still to do
+nvidia,all_tools,,,,,,,,,,unfinished: 273 of 290 hard rows still to do
+nvidia,code,,,,,,,,,,unfinished: 285 of 290 hard rows still to do
+nvidia,facts,,,,,,,,,,unfinished: 285 of 290 hard rows still to do

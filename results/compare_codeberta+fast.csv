@@ -1,0 +1,25 @@
+machine,exam,vs,codeberta+fast,baseline,difference,95% range,only model right,only baseline right,McNemar p
+amd,old,forest,92.9,92.1,0.9,-3.9 to +3.2,34,28,0.5258
+amd,old,job-numbers,92.9,90.9,2.1,-2.3 to +6.9,38,24,0.098
+amd,old,majority,92.9,58.8,34.1,+26.8 to +42.8,259,27,0.0
+amd,unseen_program,forest,90.7,86.8,4.0,-1.6 to +7.2,61,34,0.0073
+amd,unseen_program,job-numbers,90.7,88.4,2.4,-0.3 to +5.9,38,22,0.0519
+amd,unseen_program,majority,90.7,58.8,31.9,+23.1 to +41.1,251,34,0.0
+amd,unseen_app,forest,60.9,75.3,-14.4,-24.4 to -2.4,42,140,0.0
+amd,unseen_app,job-numbers,60.9,67.5,-6.6,-23.4 to +10.7,131,176,0.0119
+amd,unseen_app,majority,60.9,58.8,2.1,-15.0 to +21.9,192,178,0.4992
+amd,unseen_suite,forest,47.8,67.1,-19.3,-26.8 to -5.3,71,202,0.0
+amd,unseen_suite,job-numbers,47.8,69.1,-21.3,-30.6 to -4.4,94,239,0.0
+amd,unseen_suite,majority,47.8,40.4,7.4,-3.9 to +19.0,150,100,0.0019
+nvidia,old,forest,88.7,88.8,-0.1,-4.3 to +2.1,38,39,1.0
+nvidia,old,job-numbers,88.7,83.7,5.0,-0.9 to +8.3,68,34,0.001
+nvidia,old,majority,88.7,56.9,31.8,+16.1 to +49.1,253,37,0.0
+nvidia,unseen_program,forest,83.7,83.7,0.0,-5.1 to +3.0,56,56,1.0
+nvidia,unseen_program,job-numbers,83.7,80.3,3.4,-1.4 to +7.7,66,43,0.0346
+nvidia,unseen_program,majority,83.7,56.9,26.8,+9.2 to +44.7,245,63,0.0
+nvidia,unseen_app,forest,64.3,70.0,-5.7,-19.8 to +5.4,90,129,0.0101
+nvidia,unseen_app,job-numbers,64.3,57.1,7.2,-9.1 to +15.4,164,115,0.004
+nvidia,unseen_app,majority,64.3,56.9,7.4,-5.6 to +19.1,146,96,0.0016
+nvidia,unseen_suite,forest,48.4,42.5,5.9,-10.3 to +14.1,164,124,0.0214
+nvidia,unseen_suite,job-numbers,48.4,45.3,3.1,-17.2 to +13.8,159,138,0.2458
+nvidia,unseen_suite,majority,48.4,37.9,10.4,-8.7 to +24.8,203,132,0.0001

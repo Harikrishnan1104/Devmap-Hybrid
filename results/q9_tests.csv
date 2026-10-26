@@ -1,0 +1,7 @@
+machine,vs,e2e %,other %,difference,95% range,runs p<0.05,e2e NPB %,e2e non-NPB %
+amd,graphcodebert fine-tuned (numbers as text),70.9,72.5,-1.6,-13.2 to +5.8,0/3,77.0,49.9
+amd,hybrid (GCB + RF),70.9,74.4,-3.5,-9.1 to -0.5,3/3,77.0,49.9
+amd,Random Forest,70.9,75.3,-4.4,-10.1 to -0.3,3/3,77.0,49.9
+nvidia,graphcodebert fine-tuned (numbers as text),66.2,64.5,1.8,-5.2 to +7.2,0/3,67.9,60.3
+nvidia,hybrid (GCB + RF),66.2,73.7,-7.5,-17.8 to +2.8,3/3,67.9,60.3
+nvidia,Random Forest,66.2,70.0,-3.8,-14.7 to +6.3,2/3,67.9,60.3
