@@ -1,8 +1,6 @@
-# Where should this kernel run?
+# A Leakage-Aware GraphCodeBERT–Random Forest Hybrid for CPU–GPU Device Mapping of OpenCL Kernels
 
-**Leakage-aware CPU/GPU device mapping of OpenCL kernels with GraphCodeBERT and a Random Forest hybrid**
-
-M.Tech. (AI & ML) project, Vellore Institute of Technology, by Harikrishnan J (26MAI0060).
+M.Tech. (AI & ML) project, Vellore Institute of Technology, by Harikrishnan J (26MAI0060) and Daseri Maniedeep (26MAI0062).
 Guide: [faculty name].
 
 Given an OpenCL kernel and the size of the job, should it run on the CPU or the GPU? This repository
@@ -67,6 +65,7 @@ Key modules in `scripts/`:
 ```bash
 pip install -r requirements.txt
 cd scripts
+python unpack_results.py              # the large prediction files are stored as .csv.gz
 python 02_baselines.py                 # majority, memoriser, Random Forest on all exams
 python 04_name_tag_test.py             # job-number name-tag test
 python 05_hybrid.py ../results/colab_all/embeddings
@@ -105,8 +104,8 @@ repository; see `data/README.md`. To stay compatible, this repository is release
 ## Citation
 
 ```
-Harikrishnan J, "Where Should This Kernel Run? A Leakage-Aware Re-evaluation of Transformer Models
-for CPU-GPU Device Mapping and a GraphCodeBERT-Random Forest Hybrid," M.Tech. project,
+Harikrishnan J and Daseri Maniedeep, "A Leakage-Aware GraphCodeBERT-Random Forest Hybrid for CPU-GPU Device Mapping
+of OpenCL Kernels," M.Tech. project,
 Vellore Institute of Technology, 2026.
 ```
 
